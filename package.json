@@ -1,0 +1,12 @@
+{
+  "name": "prometheus-recover",
+  "version": "0.1.0",
+  "description": "Prometheus Lua recovery with validated output and isolated trace diagnostics",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "bin": { "prometheus-recover": "bin/recover.js" },
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test test/*.test.js", "recover": "node bin/recover.js" },
+  "license": "MIT"
+}
